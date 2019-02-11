@@ -1,1 +1,9 @@
 best_mod.h5 filter=lfs diff=lfs merge=lfs -text
+data/nonrecs_glass.zip filter=lfs diff=lfs merge=lfs -text
+data/nonrecs_other.zip filter=lfs diff=lfs merge=lfs -text
+data/nonrecs_plastic.zip filter=lfs diff=lfs merge=lfs -text
+data/nonrecs_tanglers.zip filter=lfs diff=lfs merge=lfs -text
+data/recs_glass.zip filter=lfs diff=lfs merge=lfs -text
+data/recs_metal.zip filter=lfs diff=lfs merge=lfs -text
+data/recs_paper.zip filter=lfs diff=lfs merge=lfs -text
+data/recs_plastic.zip filter=lfs diff=lfs merge=lfs -text
