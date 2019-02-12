@@ -5,7 +5,7 @@ This project is Khoa Lam's passion project at the Metis data science bootcamp in
 
 Image sources for this project include:
 
-1. Google Image Search, URLs from Google Custom Search API (code in [getting-urls notebook](https://render.githubusercontent.com/view/getting-urls.ipynb))
+1. Google Image Search, URLs from Google Custom Search API (code in [getting-urls notebook](./code/getting-urls.ipynb))
 2. [TrashNet](https://github.com/garythung/trashnet)
 3. A subset of [Caltech 256 Image Dataset](https://www.kaggle.com/jessicali9530/caltech256)
 4. A subset of [Flickr Material Database (FMD)](https://people.csail.mit.edu/celiu/CVPR2010/FMD/)
@@ -20,7 +20,7 @@ Currently, the dataset consists of 11045 images separated into 8 categories:
 2. Non-recyclables: 3502 images
    1. Glass (e.g., lightbulbs, mirror): 531 images
    2. Plastics (e.g., styrofoam, sports balls): 1850 images
-   3. Tanglers(e.g., wire, cable): 290 images
+   3. Tanglers (e.g., wire, cable): 290 images
    4. Other (e.g., battery, ceramic): 831 images
 
 This model has two distinct outputs: (1) recyclability (binary output), and (2) material classification (categorical output). Recyclability is trained with F<sub>0.5</sub> as the metric, as F<sub>0.5</sub> weighs precision twice as much as recall (minimize true recyclable contamination). Material classification is trained with AUC to balance separation of one class from others.
