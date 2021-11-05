@@ -1,6 +1,8 @@
 # IsItRecyc-CNN
 This project is Khoa Lam's passion project at the Metis data science bootcamp in NYC. Recycling contamination is not only an environmental but also an economic issue as recycling companies often redirect contaminated bales of recyclables to landfills. As a result, it increases human waste output and costs businesses resources. Here, I used a convolutional neural network (CNN) to predict if an object is recyclable from its image. My project aims to help consumers minimize recycling contamination. This goal is a shared goal with other projects and organizations (e.g., [TrashNet](https://github.com/garythung/trashnet), [Multilayer Hybrid Deep-Learning Method for Waste Classification and Recycling](https://www.hindawi.com/journals/cin/2018/5060857/), and [ZenRobotics](https://zenrobotics.com/)). This project, however, differs in that it uses mixed image sources (i.e., digital images and photographs), whereas many other projects use only photos. The final CNN was trained on the AWS server and achieved F<sub>0.5</sub> = 0.90 for recyclability, and averaged AUC = 0.75 for material classification (with  60/20/20 train-validate-test split). Lastly, the model was deployed into a Dash web app (currently defunct) on AWS Elastic Beanstalk. Presentation of this project can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vRIqHnvxaCXHn-46DpMthLigO3ssJMiKFFpMz0ilDhhPHTWmeRv4fKm8noZtMFaapnuNUGYVorlfSXh/pub?start=true&loop=false&delayms=60000).
 
+https://user-images.githubusercontent.com/39468345/140475768-3d0f3596-1cbf-489f-8710-234f884cfea5.mov
+
 ## Dataset
 
 The dataset (in zip files) is now accessible in [a GDrive](https://drive.google.com/drive/folders/1r3EiKldemvRvk2j9Dy68FekbDYfZLmf_?usp=sharing).
